@@ -1,0 +1,40 @@
+.time-slot {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 30px 50px;
+    box-sizing: border-box;
+    background-color: #ebecef;
+}
+
+.time-slot.completed {
+    background-color: #ff8c00;
+}
+
+@media (min-width: 1280px) {
+    .time-slot .arrow {
+        margin: 0 85px 0 80px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .time-slot .arrow {
+        margin: 0 65px 0 60px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .time-slot {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .time-slot>div {
+        margin: 10px;
+    }
+    .time-slot>div:last-child {
+        margin-top: 20px;
+    }
+    .time-slot .arrow {
+        display: none;
+    }
+}
