@@ -24,6 +24,7 @@ const TimeSlot = ({ timeData, onChange }) => {
         onChange={setSourceCountry}
         value={sourceCountry}
       />
+
       <ArrowIcon className="arrow" isActive={isSelected} />
       <Select
         title={"Minute"}

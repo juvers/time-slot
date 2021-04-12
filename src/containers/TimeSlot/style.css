@@ -8,7 +8,7 @@
 }
 
 .time-slot.completed {
-    background-color: #ff8c00;
+    background-color: #eee;
 }
 
 @media (min-width: 1280px) {
